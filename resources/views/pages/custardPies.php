@@ -10,13 +10,11 @@
     <body>
         <h1>Custard Pies</h1>
         <p>Here are our seasonal custard pies</p>
-        
-    <?php
-   
-        echo $saltedHoney->getPieFlavor();
-
-
-    ?>
+        <ul>
+            <li><?php echo $saltedHoney ?></li>
+            <li><?php echo $chamomileLemon ?></li>
+            <!-- <li>{{coconut }}</li> -->
+        </ul>
 
     </body>
 </html>

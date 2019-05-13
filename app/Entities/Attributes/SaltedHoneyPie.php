@@ -1,21 +1,21 @@
 <?php
 
-namespace App\Entities\Attributes;
-include "CustardPie.php";
+// namespace App\Entities\Attributes;
+// include "CustardPie.php";
 
-class SaltedHoneyPie extends Pie implements CustardPie
-{
+// class SaltedHoneyPie extends Pie implements CustardPie
+// {
    
-    public $saltedHoneyPie;
+//     public $saltedHoneyPie;
 
-    public function setCustardType($newCustardType)
-    {
-        $this->$saltedHoneyPie = $newCustardType;
-    }
+//     public function setCustardType($newCustardType)
+//     {
+//         $this->$saltedHoneyPie = $newCustardType;
+//     }
 
-    public function getFruitType()
-    {
-        return $this->$saltedHoneyPie . " is a custard pie";
-    }
+//     public function getFruitType()
+//     {
+//         return $this->$saltedHoneyPie . " is a custard pie";
+//     }
 
-}
+// }

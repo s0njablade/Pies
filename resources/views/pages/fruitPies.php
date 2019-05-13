@@ -10,13 +10,14 @@
     <body>
         <h1>Fruit Pies</h1>
         <p>Here are our seasonal fruit pies</p>
+        <ul>
+            <li><?php echo $blueberryLavender ?></li>
+            <li><?php echo $strawberryRhubarb ?></li>
+            <!-- <li>{{$strawberryRhubarb}}</li>
+            <li></li> -->
+        </ul>
         
-    <?php
-   
-        echo $strawberryRhubarb->getPieFlavor();
 
-
-    ?>
 
     </body>
 </html>

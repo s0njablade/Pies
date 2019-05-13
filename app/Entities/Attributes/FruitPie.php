@@ -4,13 +4,19 @@ namespace App\Entities\Attributes;
 
 class FruitPie extends Pie 
 {
+    // public $FruitPie;
+    // public function __construct()
+    // {
+    //     $this->setType('Fruit Pie');
+    //     $this->setPieFlavor();
+    // }
     public function setPieFlavor($newFlavor)
     {
         $this->flavor = $newFlavor;
     }
     public function getPieFlavor()
     {
-        return " Your flavor is " . $this->flavor;
+        return " Selected flavor: " . $this->flavor;
     }    
     public function setType($newType)
     {
@@ -18,12 +24,8 @@ class FruitPie extends Pie
     }
     public function getType()
     {
-        return " You've selected " . $this->type;
+        return " which is a  " . $this->type;
     }
-    // public $FruitPie;
-    // public function __contruct()
-    // {
-    //     return "You've selected " . $this->flavor . "which is a " . $this->type;
-    // }
+
 
 }

@@ -9,14 +9,13 @@
     </head>
     <body>
         <h1>Cream Pies</h1>
-        <!-- <p>Here are our seasonal fruit pies</p> -->
-        
-    <?php
-   
-        echo $bananaCreamPie->getPieFlavor();
+        <p>Here are our seasonal cream pies</p>
+        <ul>
+            <li><?php echo $bananaCreamPie ?></li>
+            <li><?php echo $coconutCreamPie ?></li>
+            <!-- <li>{{coconut }}</li> -->
+        </ul>
 
-
-    ?>
 
     </body>
 </html>
